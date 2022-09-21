@@ -21,8 +21,8 @@ else{
 //     i++;
 // }
 
-var i = 0;
-do{
-    console.log(i);
-    i++;
-}while(i<=100);
+// var i = 0;
+// do{
+//     console.log(i);
+//     i++;
+// }while(i<=100);
