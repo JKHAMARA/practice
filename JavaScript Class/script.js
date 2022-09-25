@@ -72,15 +72,15 @@
 function press(){
     var text = document.getElementById("name").value 
     if(text === "blue"){
-        document.getElementById("header").style.colour = "blue"
+        document.getElementById("header").style.color = "blue"
     }
 
     else if(text === "aquamarine"){
-        document.getElementById("header").style.colour = "aquamarine"
+        document.getElementById("header").style.color = "aquamarine"
     }
 
-    else(text === "purple"){
-        document.getElementById("header").style.colour = "purple"
+    else if(text === "purple"){
+        document.getElementById("header").style.color = "purple"
     }
 
 }
