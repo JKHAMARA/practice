@@ -69,19 +69,25 @@
 // }
 // addition(15,70)
 
-function press(){
-    var text = document.getElementById("name").value 
-    if(text === "blue"){
-        document.getElementById("header").style.color = "blue"
-    }
+// function press(){
+//     var text = document.getElementById("name").value 
+//     if(text === "blue"){
+//         document.getElementById("header").style.color = "blue"
+//     }
 
-    else if(text === "aquamarine"){
-        document.getElementById("header").style.color = "aquamarine"
-    }
+//     else if(text === "aquamarine"){
+//         document.getElementById("header").style.color = "aquamarine"
+//     }
 
-    else if(text === "purple"){
-        document.getElementById("header").style.color = "purple"
-    }
+//     else if(text === "purple"){
+//         document.getElementById("header").style.color = "purple"
+//     }
 
-}
-press()
+// }
+// press()
+
+let num1 = 100;
+let result = ++num1;
+// let result = num1++;
+console.log(num1);
+console.log(result);
